@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/find/find",
+    "pages/my/my",
+    "pages/private-FM/private-FM"
+  ],
+  "requiredBackgroundModes":[
+    "audio"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#87CEEB",
+    "navigationBarTitleText": "空境之音",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color":"#474747",
+    "selectedColor": "#d43c43",
+    "list": [
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "images/tab/Find.png",
+        "selectedIconPath": "images/tab/Find-actived.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/tab/my.png",
+        "selectedIconPath": "images/tab/my-actived.png"
+      },
+      {
+        "pagePath": "pages/private-FM/private-FM",
+        "text": "私人FM",
+        "iconPath": "images/tab/radio.png",
+        "selectedIconPath": "images/tab/radio-actived.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

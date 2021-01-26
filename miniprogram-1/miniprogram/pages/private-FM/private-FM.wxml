@@ -1,0 +1,13 @@
+<!--pages/private-FM/private-FM.wxml-->
+<swiper indicator-dots="ture" indicator-active-color="#87CEEB" autoplay="ture" interval="3000" duration="500"
+class="swiper">
+  <swiper-item wx:for="{{imgUrls}}"> 
+    <image src="{{item.url}}" class="img"></image>
+  </swiper-item>
+</swiper>
+<text class="title">推荐歌单</text>
+<view class="musiclist-contaiaer">
+  <block wx:for="{{musiclist}}" wx:key="id">
+    <m-musiclist musiclist="{{item}}"></m-musiclist>
+  </block>
+</view>
